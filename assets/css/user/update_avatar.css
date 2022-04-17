@@ -1,0 +1,94 @@
+blockquote,
+body,
+button,
+dd,
+div,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 15px;
+    background-color: #F2F3F5;
+}
+
+.layui-card-body {
+    width: 500px;
+}
+
+/* 按钮样式 */
+.row2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+/* 裁剪区域样式 */
+.cropper-box {
+    width: 350px;
+    height: 350px;
+    background-color: #efefef;
+    overflow: hidden;
+}
+
+/* 第一个预览区域样式 */
+.w100 {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
+
+/* 第二个预览区域样式 */
+.w50 {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+}
+
+/* 设置预览区域下方文本样式 */
+.size {
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+}
+
+/* 设置图片行样式 */
+.row1 {
+    display: flex;
+}
+
+/* preview-box区域样式 */
+.preview-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.img-preview {
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.cropper-box img {
+    width: 100%;
+    object-fit: cover;
+}

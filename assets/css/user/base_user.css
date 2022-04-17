@@ -1,0 +1,23 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F2F3F5;
+    padding: 15px;
+}
+
+.layui-form {
+    width: 500px;
+}
+
+.layui-input:hover,
+.layui-textarea:hover {
+    border-color: #D2D2D2 !important;
+}
+
+#username {
+    cursor: default;
+}
